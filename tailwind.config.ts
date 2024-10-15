@@ -8,8 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        // 'iphone-x': '350px',
+      },
       colors: {
-        background: "var(--background)",
+        bgNav: "#4f8ec5",
         foreground: "var(--foreground)",
       },
     },
